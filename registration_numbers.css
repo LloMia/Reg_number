@@ -1,0 +1,42 @@
+h1{
+  color: red ;
+  text-align: center;
+  font-size: 516%
+
+}
+
+#input{
+  height: 25px ;
+  width: 220px ;
+  font-size: 110%;
+}
+
+li{
+  border-radius: 20px 20px 20px 20px;
+      background: yellow;
+      padding: 20px;
+      width: 230px;
+      height: 50px;
+      font-size: 300%;
+      border-style: solid;
+      list-style: none;
+      text-align: center;
+
+}
+body{
+  background-image: url("mini.jpg");
+  background-size: cover;
+  margin: 30%;
+
+}
+
+label{
+  color: brown;
+  font-size: 184%;
+}
+
+#radio{
+  color: brown;
+  font-size: 185%;
+
+}

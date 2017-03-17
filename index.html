@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="registration_numbers.css">
+
+    <meta charset="utf-8">
+    <title></title>
+    <h1>REGISTRATION NUMBERS</h1>
+  </head>
+
+
+  <body>
+
+    <label><b>Registration numbers:</b></label>
+  <input id="input" type="text" value="" placeholder=" Type Reg numbers here"><br><br>
+<button onclick="regNum()">ADD</button> <br>
+
+<div id = "radio">
+      <input type= "radio" name = "town" value = "All" id= "all">All
+      <input type= "radio" name = "town" value = "CA" id= "Cape_Town">Cape Town
+      <input type= "radio" name = "town" value = "CY" id="Bellville">Bellville
+      <input type= "radio" name = "town" value = "CJ" id="Paarl">Paarl
+
+</div><br><br><button id ="show" type = "filter" onclick="filtered()">show</button><br><br>
+
+
+<div id = "output"></div>
+
+<ul id = "added">  </ul>
+      <p id="display"></p>
+
+    <script src="registration_numbers.js"> </script>
+</div>
+  </body>
+</html>
